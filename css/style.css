@@ -1,0 +1,460 @@
+@font-face {
+    font-family: 'kanitregular';
+    src: url('../fonts/kanit-regular-webfont.eot');
+    src: url('../fonts/kanit-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/kanit-regular-webfont.woff2') format('woff2'),
+         url('../fonts/kanit-regular-webfont.woff') format('woff'),
+         url('../fonts/kanit-regular-webfont.ttf') format('truetype'),
+         url('../fonts/kanit-regular-webfont.svg#kanitregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@charset "utf-8";
+/*reset css*/
+html, body, div, h1, h2, h3. h4, h5, h6{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+}
+body{
+	background: url('../images/header.jpg') /*center*/ no-repeat;
+	background-size: 100%;
+
+}
+
+
+}
+#wrapper{
+	margin: :0 auto;
+	float: left;
+ 	width: 1300px;
+ 	height: 2100px;
+  
+}
+header{
+	float: left;
+	width: 100%;
+	height: 50px;
+	background-color: rgba(217, 211, 211, 0.59); 
+	position: absolute;
+	background-position: center;
+	margin-top: 30px;
+}
+.content_left{
+	width: 50%;
+	float: left;
+}
+.content_right{
+	width: 50%;
+	float:left;
+}
+.logo{
+	float: left;
+	margin: -10px 0 0 0px;
+	margin-left: 170px;
+}
+
+#linklist{
+	float: left;
+	margin-top: 19px;
+	
+}
+#linklist a{
+	font-family: 'kanitregular';
+	text-decoration: none;
+	color: #7d7e80;
+}
+
+#linklist a:hover{
+	color: black;
+	text-decoration: underline;
+}
+#search{
+	width: 275px;
+	height: 25px;
+	background-color: #b0b1b3;
+	float: left;
+	margin: 10px 20px 0 0;
+	padding: 5px;
+}
+#search input{
+	
+	width: 205px;
+	height: 23px;
+	padding: 5px 10px;
+	box-sizing: border-box;
+}
+#search button{
+	width: 65px;
+	height: 23px;
+	border: 0;
+	color: #fff;
+	background-color: #bdbec0;
+	float:right;
+	padding: 0;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-family: 'kanitregular';
+	cursor: pointer;
+}
+#wrapper2{
+	margin: 0 auto;
+    /* margin-top: 81px; */
+    width: 960px;
+    height: 2470px;
+    /* margin-left: 170px; */
+    /* margin-right: 170px; */
+    /* float: left; */
+}
+.menu{
+	width: 660px;
+	height: 95px;
+	margin-top: 80px;
+	background-color: #384047;
+	opacity: 0.74;
+	border-radius: 10px; 
+	float: right;
+	
+
+}
+#menu_list{
+	margin-left: 12px;
+}
+#menu_list li{
+	list-style: none;
+	float: left;
+	font-family: 'kanitregular';
+	font-size: 16px;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+	margin: 0 10px;
+	padding: 32px;
+	margin-top: -17px;
+
+}
+#menu_list li a{
+	color: white;
+	text-decoration: none;
+	
+}
+#menu_list li  .active{
+	color: orange;
+}
+#menu_list li i{
+	font-size: 33px;
+
+}
+#menu_list li a:hover{
+
+	color: orange;
+	
+	transition: 0.3s;
+}
+#menu_list li  .active:hover{
+	color: orange;
+}
+#text1{
+	margin-top: 343px;
+	font-family: 'kanitregular';
+	color: white;
+	font-size: 60px;
+	float: left;
+	margin-left: 20px;
+}
+#text2{
+	margin-top: 55px;
+	float: left;
+	font-family: 'kanitregular';
+	color: white;
+	font-size: 24px;
+	margin-left: 193px;
+
+}
+#text3{
+	margin-top: 21px;
+	float: left;
+	font-family: 'kanitregular';
+	color: white;
+	font-size: 18px;
+	margin-left: 486px;
+
+}
+#word{
+	float: left;
+	font-family: 'kanitregular';
+	font-size: 36px;
+	margin-top: 300px;
+	margin-left:119px;
+	
+
+}
+h3{
+	float: left;
+	font-family: 'kanitregular';
+	font-size: 36px;
+	margin-top: 262px;
+	margin-left: 217px;
+	padding: 0 0 61px;
+}
+
+
+
+
+/*slider*/
+
+.mis-stage {
+	float: left;
+	margin-top: 100px;
+background-color: #fff;
+}
+.mis-slider {
+	
+height: 80px;
+background-color: #eee;
+}
+.mis-slider li a {
+text-decoration: none;
+color: #666;
+display: block;
+}
+.mis-slider li figcaption {
+font-size: 1.5em;
+}
+.mis-slider li img {
+
+max-width: 270px;
+width: 100%;
+border-radius: 135px;
+border: none;
+}
+.mis-slide {
+width: 360px;
+height: 360px;
+padding: 40px;
+margin-top: -138px
+}
+.mis-nav-buttons a {
+color: #fff;
+}
+
+
+/*program*/
+
+h4{
+	float:left;
+	color: black;
+	font-family: 'kanitregular';
+	font-size: 36px;
+	margin-left: 260px;
+	margin-top: 60px;
+
+
+}
+#program img{
+	opacity: 0.5;
+	float: left;
+	margin-top: 100px;
+	margin-left: 160px;
+}
+#program h1{
+	float: left;
+	font-family: 'kanitregular';
+	font-size: 36px;
+	margin-top: 390px;
+	margin-left: -170px;
+
+}
+#program h2{
+	float: left;
+	font-family: 'kanitregular';
+	font-size: 36px;
+	margin-top: 390px;
+	margin-left: -240px;
+
+}
+#program a h1,h2{
+	color: black;
+	
+}
+#program a img:hover{
+	opacity: 1;
+	transform: scale(1.15,1.15);
+	transition: 0.5s;
+}
+footer{
+	width: 100%;
+	height: 260px;
+	background-color:  #384047;
+	float: left;
+}
+footer img{
+	float: left;
+	position: absolute;
+	margin-left: 170px;
+	margin-top: 95px;
+}
+.contact{
+	width: 200px;
+	height: 45px;
+	float: left;
+	/*background-color: pink;*/ 
+	margin-left: 420px;
+	margin-top: 111px;
+	padding-right: 5px;
+}
+.contact i{
+	margin-top: 8px;
+	color: #384047;
+	padding-top: 8px;
+	text-align: center;
+	width: 30px;
+	height: 22px;
+	background-color: white;
+	border-radius: 30px;
+}
+.contact i:hover{
+  color: white;
+}
+.contact i:hover{
+	background-color: orange;
+}
+#email h2{
+	float: left;
+	margin-left: 25px;
+	color: white;
+	margin-top: 123px;
+	font-family: 'kanitregular';
+	font-size: 24px;
+}
+.back-to-top i{
+	font-size: 63px;
+	float: left;
+	color: white;
+	margin-left: 155px;
+	margin-top: 100px;
+}
+
+
+/*button*/
+
+
+/*login*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+/*body {
+  background: #456;
+  font-family: 'Open Sans', sans-serif;*/
+}
+.login  {
+  width: 400px;
+  margin: 16px auto;
+  font-size: 16px;
+  z-index: 20;
+}
+
+/* Reset top and bottom margins from certain elements */
+.login-header,
+.login p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* The triangle form is achieved by a CSS hack */
+.login-triangle {
+  width: 0;
+  margin-right: auto;
+  margin-left: auto;
+  border: 12px solid transparent;
+  border-bottom-color: #28d;
+  position: absolute;
+  top: 37px;
+  left: 1040px;
+}
+
+.login-header {
+  background: #28d;
+  width: 250px;
+  padding: 20px;
+  font-size: 1.4em;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  margin-left: 260px;
+  margin-top: 60px;
+}
+
+.login-container {
+  background: #ebebeb;
+  padding: 20px;
+  width: 250px;
+      margin-left: 260px;
+}
+
+/* Every row inside .login-container is defined with p tags */
+.login p {
+  padding: 12px;
+}
+
+.login input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  padding: 16px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 0.95em;
+}
+
+.login input[type="email"],
+.login input[type="password"] {
+  background: #fff;
+  border-color: #bbb;
+  color: #555;
+}
+
+/* Text fields' focus effect */
+.login input[type="email"]:focus,
+.login input[type="password"]:focus {
+  border-color: #888;
+}
+
+.login input[type="submit"] {
+  background: #28d;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.login input[type="submit"]:hover {
+  background: #17c;
+}
+
+/* Buttons' focus effect */
+.login input[type="submit"]:focus {
+  border-color: #05a;
+}
+
+.black-ribbon {   position: fixed;   z-index: 9999;   width: 70px; }
+@media only all and (min-width: 768px) { .black-ribbon { width: auto; } }
+
+.stick-left { left: 0; }
+.stick-right { right: 0; }
+.stick-top { top: 0; }
+.stick-bottom { bottom: 0; }
+
+
+
+--------------------------------------
+
+
+
+
+
+}
