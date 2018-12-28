@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FELTFORHIT</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="css/mislider.css" rel="stylesheet" type="text/css" />
+	<link rel="shortcut icon" href="/favicon.ico" type="images/x-icon">
+	<link rel="icon" href="/favicon.ico" type="images/x-icon">
+
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+	<script type="text/javascript" src="js/menu_button.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="js/mislider.js" type="text/javascript"></script>
+	
+</head>
+
+	<body>
+
+	
+		<img src="https://goo.gl/Yl6KNg" class="black-ribbon stick-top stick-left"/>
+
+		<div id="wrapper">
+			<header>
+			<div class="content_left">
+					<div class="logo">
+						
+						<a href="#"><h1><img src="images/logo.png"> </h1></a>
+						
+					</div><!-- logo -->
+			</div><!-- content_left -->
+			<div class="content_right">
+						<div id="search">
+							<input type="text" name="search" placeholder="search">
+							<button>search</button>
+						</div><!-- search -->
+						<div id="linklist">
+							<a href="#">Register</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+							<a href="#">Login
+										
+							</a>
+								
+						</div>	<!-- link list -->
+			</div>	<!-- content right -->			
+			<script type="text/javascript">
+				$("#open-cart").one("click",function(){
+					$(".cart").toggleClass('height0');
+					// $(".item-cart").toggleClass('height0');
+				});
+				$(".submit-login").click(function(){
+					$(".cart").hide();
+				})
+			</script>
+
+			</header>				
+					
+		</div>
+						
+						
+						
+				
+	
+
+		
+		<div id="wrapper2">
+				<div class="menu">
+						<ul id="menu_list">
+								<li><a class="active" href="index.html">&nbsp;<i class="fa fa-home"></i><br><br>Home</a></li> 
+								<li><a href="program.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-calculator"></i><br><br>โปรแกรมสุขภาพ</a></li> 
+								<li><a href="news.html">&nbsp;&nbsp;&nbsp;<i class="fa fa-newspaper-o"></i><br><br>ข่าวสุขภาพ</a></li> 
+								<li><a href="index.html">&nbsp;&nbsp;&nbsp;<i class="fa fa-book"></i><br><br>สาระสุขภาพ</a></li>
+							</ul>
+				</div>
+				<div id="text1">มารักสุขภาพกัน</div>
+				<div id="text2">“…ถ้าคนเรามีสุขภาพเสื่อมโทรม ก็จะไม่สามารถพัฒนาชาติได้<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เพราะทรัพยากรที่สำคัญของประเทศชาติ ก็คือพลเมืองนั่นเอง…”</div>
+				<div id="text3">พระราชดำรัสของพระบาทสมเด็จพระเจ้าอยู่หัว รัชกาลที่ 9
+				</div>
+
+
+
+					<div id="word">-สามารถปรึกษากับเทรนเนอร์มืออาชีพได้<br><br>
+									-มีโปรแกรมเพื่อสุขภาพฟรี
+					</div>
+					<h3>เลือก เทรนเนอร์ ที่คุณต้องการสนทนา</h3>
+
+
+				<div class="mis-stage" > 
+			
+								<ol class="mis-slider">
+							
+								<li class="mis-slide"> 
+							
+								<a href="chat.html" class="mis-container"> 
+							
+									<figure> 
+							 
+										<img src="photo/susan.jpg" >
+										<figcaption>Susan</figcaption>
+									</figure>
+								</a> </li>
+								
+								<li class="mis-slide"> <a href="chat.html" class="mis-container">
+								<figure> <img src="photo/michael.jpg" >
+								<figcaption>Michael</figcaption>
+								</figure>
+								</a> </li>
+
+								<li class="mis-slide"> <a href="chat.html" class="mis-container">
+								<figure> <img src="photo/john.jpg" alt="Hidden Pond">
+								<figcaption>John</figcaption>
+								</figure>
+								</a> </li>
+
+								<li class="mis-slide"> <a href="chat.html" class="mis-container">
+								<figure> <img src="photo/garry.jpg" alt="Shrine">
+								<figcaption>Garry</figcaption>
+								</figure>
+								</a> </li>
+
+								
+								</ol>
+				</div>
+
+	
+				<h4>โปรแกรมสุขภาพ by yourelf</h4>
+				<div id="program">
+					<a href="program.html"><img src="images/eat.png"></a>
+					<a href="program.html"><h1>การกิน</h1></a>
+					<a href="program.html"><img src="images/bike.png"></a>
+					<a href="program.html"><h2>การออกกำลังกาย</h2></a>
+				</div>
+		</div>
+	</body>
+
+
+	
+	
+<script type="text/javascript">
+jQuery(function ($) {
+var slider = $('.mis-stage').miSlider({
+stageHeight: 300,
+slidesOnStage: false,
+slidePosition: 'center',
+slideStart: 'mid',
+slideScaling: 150,
+offsetV: -5,
+centerV: true,
+navButtonsOpacity: 1,
+slideClickable: true,
+navButtons: true,
+slidesContinuous: true,
+
+});
+});
+</script>
+<script>
+$(document).ready(function(){
+$(window).scroll(function(){
+if ($(this).scrollTop() > 100) {
+$('#scroll').fadeIn();
+} else {
+$('#scroll').fadeOut();
+}
+});
+$('#scroll').click(function(){
+$("html, body").animate({ scrollTop: 0 }, 600);
+return false;
+});
+});
+</script>
+
+<footer>
+	<a href="#"><img src="images/logo.png"></a>
+
+		<div class="contact">
+		<a href="#"><i class="fa fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;
+		<a href="#"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;
+		<a href="#"><i class="fa fa-google-plus"></i></a>&nbsp;&nbsp;&nbsp;
+		<a href="#"><i class="fa fa-youtube-play"></i></a>
+
+		</div>
+	<div id="email">	
+	<h2>Email : Feltforhit@gmail.com</h2>
+	</div>
+	<div class="back-to-top">
+<a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;"><i class="fa fa-chevron-circle-up"></i>
+ </a>
+</div>
+
+	
+</footer>
+</html>
